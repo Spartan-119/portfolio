@@ -28628,8 +28628,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
  * choice, name and title that describes your career focus.
  */ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _downArrowSvg = require("../images/down-arrow.svg");
-var _downArrowSvgDefault = parcelHelpers.interopDefault(_downArrowSvg);
+// import arrowSvg from "../images/down-arrow.svg";
 var _propTypes = require("prop-types");
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 /**
@@ -28644,7 +28643,7 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  * freely use on your site.
  */ var _2HdPng = require("../images/2 hd.png");
 var _2HdPngDefault = parcelHelpers.interopDefault(_2HdPng);
-const imageAltText = "";
+// const imageAltText = "";
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "home",
@@ -28725,10 +28724,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/2 hd.png":"dBDf7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"dBDf7":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/2 hd.png":"dBDf7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dBDf7":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "2 hd.dafe6098.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
@@ -28741,72 +28737,75 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/**
- * Portfolio component
- *
- * Highlights some of  your creations. These can be designs, websites,
- * open source contributions, articles you've written and more.
- *
- * This is a great area for you to to continually add to and refine
- * as you continue to learn and create.
- */ var _react = require("react");
+var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-/**
- * Desk image
- *
- * Below is a sample desk image. Feel free to update this to an image of your choice,
- * updating below imageAltText to string that represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a photo you
- * freely use on your site.
- */ var _designDeskJpeg = require("../images/design-desk.jpeg");
-var _designDeskJpegDefault = parcelHelpers.interopDefault(_designDeskJpeg);
-const imageAltText = "desktop with books and laptop";
-/**
- * Project list
- *
- * An array of objects that will be used to display for your project
- * links section. Below is a sample, update to reflect links you'd like to highlight.
- */ const projectList = [
+// import image from "../images/design-desk.jpeg";
+// Import your thumbnail images
+var _aBTestingPng = require("../images/a_b testing.png");
+var _aBTestingPngDefault = parcelHelpers.interopDefault(_aBTestingPng);
+var _pricePredictionPng = require("../images/price_prediction.png");
+var _pricePredictionPngDefault = parcelHelpers.interopDefault(_pricePredictionPng);
+var _creditCardFraudDetectionPng = require("../images/credit_card_fraud_detection.png");
+var _creditCardFraudDetectionPngDefault = parcelHelpers.interopDefault(_creditCardFraudDetectionPng);
+var _flightTicketPng = require("../images/flight_ticket.png");
+var _flightTicketPngDefault = parcelHelpers.interopDefault(_flightTicketPng);
+var _fakeNewsPng = require("../images/fake_news.png");
+var _fakeNewsPngDefault = parcelHelpers.interopDefault(_fakeNewsPng);
+var _pongPng = require("../images/pong.png");
+var _pongPngDefault = parcelHelpers.interopDefault(_pongPng);
+var _conwayPng = require("../images/conway.png");
+var _conwayPngDefault = parcelHelpers.interopDefault(_conwayPng);
+var _netflixPng = require("../images/netflix.png");
+var _netflixPngDefault = parcelHelpers.interopDefault(_netflixPng);
+// const imageAltText = "desktop with books and laptop";
+const projectList = [
     {
         title: "A-B Testing Approach for Comparing Performance of ML Models",
         description: "The objective of this project is to compare the performance of BERT and DistilBERT models for building an efficient Question and Answering system. Using A/B testing approach, we explore the effectiveness and efficiency of both models and determine which one is better suited for Q&A tasks.",
-        url: "https://github.com/Spartan-119/A-B-Testing-Approach-for-Comparing-Performance-of-ML-Models"
+        url: "https://github.com/Spartan-119/A-B-Testing-Approach-for-Comparing-Performance-of-ML-Models",
+        thumbnail: (0, _aBTestingPngDefault.default)
     },
     {
         title: "Build Real Estate Price Prediction Model with NLP and FastAPI",
         description: "In this Real Estate Price Prediction Project, I have built a real estate price prediction machine learning model and deploy it on Heroku using FastAPI Framework.",
-        url: "https://github.com/Spartan-119/Build-Real-Estate-Price-Prediction-Model-with-NLP-and-FastAPI/tree/master"
+        url: "https://github.com/Spartan-119/Build-Real-Estate-Price-Prediction-Model-with-NLP-and-FastAPI/tree/master",
+        thumbnail: (0, _pricePredictionPngDefault.default)
     },
     {
         title: "Credit Card Fraud Detection Project",
         description: "[PRIVATE REPO] The primary goal of this project is to develop effective models for the detection of fraudulent credit card transactions. Credit card fraud is a significant concern for both financial institutions and cardholders, and machine learning techniques, particularly deep learning, have proven to be valuable tools for addressing this issue.",
-        url: "https://fraud-detection.herokuapp.com/"
+        url: "https://fraud-detection.herokuapp.com/",
+        thumbnail: (0, _creditCardFraudDetectionPngDefault.default)
     },
     {
         title: "Flight Ticket Price Predictor",
         description: "The objective of this project is to build a machine learning model to predict the flight ticket price based on various features such as source, destination, number of stops, departure time, arrival time, etc.",
-        url: "https://github.com/Spartan-119/Project-Pro/blob/main/Flight%20Ticket%20Price%20Predictor/FTPP.ipynb"
+        url: "https://github.com/Spartan-119/Project-Pro/blob/main/Flight%20Ticket%20Price%20Predictor/FTPP.ipynb",
+        thumbnail: (0, _flightTicketPngDefault.default)
     },
     {
         title: "Fake News Classifier",
         description: "This project provides both a Naive Bayes and an LSTM-based Fake News Classifier. Transitioning to the LSTM model can lead to improved classification accuracy, especially when dealing with complex text data.",
-        url: "https://github.com/Spartan-119/Fake-News-Classifier"
+        url: "https://github.com/Spartan-119/Fake-News-Classifier",
+        thumbnail: (0, _fakeNewsPngDefault.default)
     },
     {
-        title: "One Player Pong Game",
-        description: "This Pong is a one-player game where the player controls a paddle and tries to hit the ball past the wall. The game keeps track of scores and ends when the player reaches a specified score limit.",
-        url: "https://github.com/Spartan-119/Pong-game"
+        title: "Single Player Pong Game",
+        description: "This Pong is a single-player game where the player controls a paddle and tries to hit the ball past the wall. The game keeps track of scores and ends when the player reaches a specified score limit.",
+        url: "https://github.com/Spartan-119/Pong-game",
+        thumbnail: (0, _pongPngDefault.default)
     },
     {
         title: "Conway's Game of Life",
         description: "This is an implementation of Conway's game of life in Python. Conway's Game of Life is a classic cellular automaton that simulates the evolution of life-like patterns on a grid. Despite its simple rules, it can produce complex and fascinating patterns.",
-        url: "https://github.com/Spartan-119/Conway-s-Game-of-life/tree/main"
+        url: "https://github.com/Spartan-119/Conway-s-Game-of-life/tree/main",
+        thumbnail: (0, _conwayPngDefault.default)
     },
     {
         title: "Movie Recommendation Engine",
         description: "In this project, I have built a recommendation engine that recommend movies in the descending order of user's likeliness to watch based on user's already watched movie.",
-        url: "https://github.com/Spartan-119/Movie_Recommendation_Engine"
+        url: "https://github.com/Spartan-119/Movie_Recommendation_Engine",
+        thumbnail: (0, _netflixPngDefault.default)
     }, 
 ];
 const Portfolio = ()=>{
@@ -28818,95 +28817,75 @@ const Portfolio = ()=>{
                 style: {
                     textAlign: "center"
                 },
-                children: "Portfolio"
+                children: "Portfolio Projects"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 86,
+                lineNumber: 78,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "container",
                 style: {
-                    display: "flex",
-                    flexDirection: "row",
-                    paddingTop: "3rem"
+                    display: "grid",
+                    gridTemplateColumns: "repeat(4, 1fr)",
+                    gap: "1rem"
                 },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        style: {
-                            maxWidth: "40%",
-                            alignSelf: "center"
-                        },
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _designDeskJpegDefault.default),
-                            style: {
-                                height: "90%",
-                                width: "100%",
-                                objectFit: "cover"
-                            },
-                            alt: imageAltText
-                        }, void 0, false, {
-                            fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 89,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 88,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "container",
-                        children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "box",
+                children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "box",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: project.url,
+                                target: "_blank",
+                                rel: "noopener noreferrer",
                                 children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: project.url,
-                                        target: "_blank",
-                                        rel: "noopener noreferrer",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            style: {
-                                                flexBasis: "40px"
-                                            },
-                                            children: project.title
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 99,
-                                            columnNumber: 17
-                                        }, undefined)
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: project.thumbnail,
+                                        alt: project.title,
+                                        style: {
+                                            maxWidth: "100%",
+                                            height: "auto"
+                                        }
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 98,
+                                        lineNumber: 87,
                                         columnNumber: 15
                                     }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        className: "small",
-                                        children: project.description
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        children: project.title
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 101,
+                                        lineNumber: 92,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
-                            }, project.title, true, {
+                            }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 97,
+                                lineNumber: 86,
                                 columnNumber: 13
-                            }, undefined))
-                    }, void 0, false, {
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "small",
+                                children: project.description
+                            }, void 0, false, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 94,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, project.title, true, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 95,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
+                        lineNumber: 85,
+                        columnNumber: 11
+                    }, undefined))
+            }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 87,
+                lineNumber: 80,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 85,
+        lineNumber: 77,
         columnNumber: 5
     }, undefined);
 };
@@ -28920,8 +28899,29 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/design-desk.jpeg":"jSSP3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jSSP3":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "design-desk.df4cd0cf.jpeg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg"}],"hrff5":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "a_b testing.ffc291e7.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"jcEeo":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "price_prediction.42ea8b6f.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"ix340":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "credit_card_fraud_detection.3cf1f075.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"dSzE0":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "flight_ticket.485c1225.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"eb8s5":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "fake_news.056c0e72.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"16zGv":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "pong.dde2fba2.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"7ZeZL":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "conway.f195d690.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"3VHEg":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "netflix.eda5f484.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
