@@ -27201,8 +27201,63 @@ const imageAltText = "purple and blue abstract background";
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
- */ const detailOrQuote = "Welcome to my data journey!\n\n I'm a former Data Scientist at Infosys, specializing in Python, data structures & algorithms, SQL, classical Machine Learning, NLP, and statistical analysis. Currently pursuing an MSc in Data Science at Kingston University. I'm also a privacy advocate and host of the Applied Privacy Podcast. Explore my portfolio to view my projects, and my podcast (link at the top menu) to learn more about privacy engineering.\n\nI am into learning boxing these days. It was a mistake! Have been playing \uD83C\uDFB8 for over 10 years. So, if you got a gig, ping me yeah\uD83E\uDD18\nI am also guilty of spending too much time PETTING DOGS.";
-const About = ()=>{
+ */ const detailOrQuote = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+    children: [
+        "Welcome to my data journey!",
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+            fileName: "src/Components/About.jsx",
+            lineNumber: 52,
+            columnNumber: 32
+        }, undefined),
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+            fileName: "src/Components/About.jsx",
+            lineNumber: 53,
+            columnNumber: 5
+        }, undefined),
+        "I'm a former Data Scientist at Infosys, specializing in Python, data structures & algorithms, SQL, classical Machine Learning, NLP, and statistical analysis. Currently pursuing an MSc in Data Science at Kingston University. I'm also a privacy advocate and host of the ",
+        " ",
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+            href: "https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("u", {
+                children: "Applied Privacy Podcast."
+            }, void 0, false, {
+                fileName: "src/Components/About.jsx",
+                lineNumber: 55,
+                columnNumber: 141
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/Components/About.jsx",
+            lineNumber: 55,
+            columnNumber: 5
+        }, undefined),
+        " ",
+        "Please explore my podcast to learn more about privacy engineering.",
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+            fileName: "src/Components/About.jsx",
+            lineNumber: 57,
+            columnNumber: 72
+        }, undefined),
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+            fileName: "src/Components/About.jsx",
+            lineNumber: 58,
+            columnNumber: 5
+        }, undefined),
+        "I am into learning boxing these days. It was a mistake! Have been playing \uD83C\uDFB8 for over 10 years. So, if you got a gig, ping me yeah\uD83E\uDD18",
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+            fileName: "src/Components/About.jsx",
+            lineNumber: 60,
+            columnNumber: 5
+        }, undefined),
+        "I am also guilty of spending too much time PETTING DOGS."
+    ]
+}, void 0, true, {
+    fileName: "src/Components/About.jsx",
+    lineNumber: 51,
+    columnNumber: 3
+}, undefined);
+function About() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
         id: "about",
@@ -27213,9 +27268,9 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 56,
+                lineNumber: 68,
                 columnNumber: 7
-            }, undefined),
+            }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     backgroundColor: "white",
@@ -27230,22 +27285,22 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 67,
+                        lineNumber: 79,
                         columnNumber: 9
-                    }, undefined),
+                    }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         className: "large",
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 68,
+                        lineNumber: 80,
                         columnNumber: 9
-                    }, undefined),
+                    }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 69,
+                        lineNumber: 81,
                         columnNumber: 9
-                    }, undefined),
+                    }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                         style: {
                             textAlign: "left",
@@ -27258,19 +27313,19 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 80,
+                                lineNumber: 92,
                                 columnNumber: 13
-                            }, undefined))
+                            }, this))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 70,
+                        lineNumber: 82,
                         columnNumber: 9
-                    }, undefined),
+                    }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 83,
+                        lineNumber: 95,
                         columnNumber: 9
-                    }, undefined),
+                    }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         style: {
                             padding: "1rem 3rem 0"
@@ -27278,22 +27333,22 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 84,
+                        lineNumber: 96,
                         columnNumber: 9
-                    }, undefined)
+                    }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 57,
+                lineNumber: 69,
                 columnNumber: 7
-            }, undefined)
+            }, this)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 55,
+        lineNumber: 67,
         columnNumber: 5
-    }, undefined);
-};
+    }, this);
+}
 _c = About;
 exports.default = About;
 var _c;
@@ -27304,44 +27359,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/motion-background.jpg":"kzNvo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kzNvo":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "motion-background.0a6a8db0.jpg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/motion-background.jpg":"kzNvo"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27491,7 +27509,44 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"7GWgX":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"kzNvo":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "motion-background.0a6a8db0.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"7GWgX":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8b43 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
