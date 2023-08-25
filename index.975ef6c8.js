@@ -28699,29 +28699,6 @@ const Home = ({ name , title  })=>{
                 fileName: "src/Components/Home.jsx",
                 lineNumber: 31,
                 columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    position: "absolute",
-                    bottom: "3rem",
-                    left: "40%"
-                },
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _downArrowSvgDefault.default),
-                    style: {
-                        height: "3rem",
-                        width: "3rem"
-                    },
-                    alt: imageAltText
-                }, void 0, false, {
-                    fileName: "src/Components/Home.jsx",
-                    lineNumber: 48,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/Components/Home.jsx",
-                lineNumber: 47,
-                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
