@@ -28572,6 +28572,8 @@ const Header = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "https://medium.com/@abin_varghese",
+                target: "_blank",
+                rel: "noopener noreferrer",
                 children: "Blogs"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
@@ -28580,10 +28582,12 @@ const Header = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4",
+                target: "_blank",
+                rel: "noopener noreferrer",
                 children: "Applied Privacy Podcast"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 28,
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28591,7 +28595,7 @@ const Header = ()=>{
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 31,
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined)
         ]
@@ -28899,7 +28903,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg"}],"hrff5":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hrff5":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "a_b testing.ffc291e7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"jcEeo":[function(require,module,exports) {
