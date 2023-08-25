@@ -27077,6 +27077,8 @@ var _home = require("./Components/Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
 var _portfolio = require("./Components/Portfolio");
 var _portfolioDefault = parcelHelpers.interopDefault(_portfolio);
+var _podcasts = require("./Components/Podcasts");
+var _podcastsDefault = parcelHelpers.interopDefault(_podcasts);
 var _stylesCss = require("./styles.css");
 /**
  * This object represents your information. The project is set so that you
@@ -27105,7 +27107,7 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 44,
+                lineNumber: 45,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
@@ -27113,17 +27115,22 @@ const App = ()=>{
                 title: siteProps.title
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 45,
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 46,
+                lineNumber: 47,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 47,
+                lineNumber: 48,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _podcastsDefault.default), {}, void 0, false, {
+                fileName: "src/App.jsx",
+                lineNumber: 49,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
@@ -27132,13 +27139,13 @@ const App = ()=>{
                 secondaryColor: secondaryColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 48,
+                lineNumber: 50,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.jsx",
-        lineNumber: 43,
+        lineNumber: 44,
         columnNumber: 5
     }, undefined);
 };
@@ -27152,7 +27159,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kouZu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components/Podcasts":"gXzeZ"}],"kouZu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$17a8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28982,6 +28989,176 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "conway
 },{"./helpers/bundle-url":"lgJ39"}],"3VHEg":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "netflix.eda5f484.png" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}],"gXzeZ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c34b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c34b.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+// Import your podcast thumbnail images
+var _jeffPng = require("../images/jeff.png");
+var _jeffPngDefault = parcelHelpers.interopDefault(_jeffPng);
+var _patriciaPng = require("../images/patricia.png");
+var _patriciaPngDefault = parcelHelpers.interopDefault(_patriciaPng);
+var _davePng = require("../images/dave.png");
+var _davePngDefault = parcelHelpers.interopDefault(_davePng);
+var _robinPng = require("../images/robin.png");
+var _robinPngDefault = parcelHelpers.interopDefault(_robinPng);
+var _thomasPng = require("../images/thomas.png");
+var _thomasPngDefault = parcelHelpers.interopDefault(_thomasPng);
+// Import other thumbnails as needed
+const podcasts = [
+    {
+        title: "Jeff Jockisch",
+        description: "Jeff, PrivacyPlan's CEO and Data Privacy Researcher, explores diverse privacy facets via podcasts, expert conversations, and data analysis. His focus areas include tech, data brokers, regulations, AI, and podcast evaluations.",
+        videoUrl: "https://www.youtube.com/watch?v=2oJTcTZUcHA&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4&index=3",
+        thumbnail: (0, _jeffPngDefault.default)
+    },
+    {
+        title: "Patricia Thaine",
+        description: "Patricia is the CEO and co-founder of Private AI,  a company that she started with Pieter Luitjens, CTO of Private AI whose mission is to build the privacy layer for software.",
+        videoUrl: "https://www.youtube.com/watch?v=Fy-u_1fF9Hk&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4&index=7",
+        thumbnail: (0, _patriciaPngDefault.default)
+    },
+    {
+        title: "David Burnett",
+        description: "Dave, Zero Biometrics' business development head, designs secure face authentication without storing sensitive biometrics, reducing data breach risks. Protecting biometric data, whether on your device or in the cloud, is crucial.",
+        videoUrl: "https://www.youtube.com/watch?v=8jvrKlife9c&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4&index=11",
+        thumbnail: (0, _davePngDefault.default)
+    },
+    {
+        title: "Robin Andruss",
+        description: "Robin is the chief privacy officer at Skyflow. Robin is a strategic risk & business-focused Privacy & Data Protection Leader with over 15 years combined in the privacy, risk, audit, finance, strategy, and compliance space.",
+        videoUrl: "https://www.youtube.com/watch?v=0Hu7p5EI_g8&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4&index=16",
+        thumbnail: (0, _robinPngDefault.default)
+    },
+    {
+        title: "Thomas La Piana",
+        description: "Thomas is the senior software engineer at Ethyca. Thomas and I talked about the privacy landscape from an engineering perspective, inserting privacy into the CI/CD pipeline, the future of privacy tech in the coming years and much more!",
+        videoUrl: "https://www.youtube.com/watch?v=-NV2ZyuFgcI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4&index=19",
+        thumbnail: (0, _thomasPngDefault.default)
+    }
+];
+const Podcasts = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        className: "padding",
+        id: "podcasts",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                style: {
+                    textAlign: "center"
+                },
+                children: "Applied Privacy Podcast"
+            }, void 0, false, {
+                fileName: "src/Components/Podcasts.jsx",
+                lineNumber: 56,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "box",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "container" // Set the same class name as in Portfolio.jsx
+                    ,
+                    style: {
+                        display: "grid",
+                        gridTemplateColumns: "repeat(5, 1fr)",
+                        gap: "1rem"
+                    },
+                    children: podcasts.map((podcast, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "box",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: podcast.videoUrl,
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            src: podcast.thumbnail,
+                                            alt: podcast.title,
+                                            style: {
+                                                maxWidth: "100%",
+                                                height: "auto"
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "src/Components/Podcasts.jsx",
+                                            lineNumber: 69,
+                                            columnNumber: 19
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                            children: podcast.title
+                                        }, void 0, false, {
+                                            fileName: "src/Components/Podcasts.jsx",
+                                            lineNumber: 74,
+                                            columnNumber: 19
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/Components/Podcasts.jsx",
+                                    lineNumber: 68,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "small",
+                                    children: podcast.description
+                                }, void 0, false, {
+                                    fileName: "src/Components/Podcasts.jsx",
+                                    lineNumber: 76,
+                                    columnNumber: 17
+                                }, undefined)
+                            ]
+                        }, index, true, {
+                            fileName: "src/Components/Podcasts.jsx",
+                            lineNumber: 67,
+                            columnNumber: 15
+                        }, undefined))
+                }, void 0, false, {
+                    fileName: "src/Components/Podcasts.jsx",
+                    lineNumber: 58,
+                    columnNumber: 11
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/Components/Podcasts.jsx",
+                lineNumber: 57,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/Components/Podcasts.jsx",
+        lineNumber: 55,
+        columnNumber: 7
+    }, undefined);
+};
+_c = Podcasts;
+exports.default = Podcasts;
+var _c;
+$RefreshReg$(_c, "Podcasts");
+
+  $parcel$ReactRefreshHelpers$c34b.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"21dqq","../images/jeff.png":"lGTLE","../images/patricia.png":"vJGTl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/dave.png":"3glMa","../images/robin.png":"gcyse","../images/thomas.png":"iL6tL","react/jsx-dev-runtime":"iTorj"}],"lGTLE":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "jeff.c9b46e2a.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"vJGTl":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "patricia.518b855a.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"3glMa":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "dave.48e1e430.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"gcyse":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "robin.d4bed8ca.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"iL6tL":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "thomas.a856b4b3.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
 //# sourceMappingURL=index.975ef6c8.js.map

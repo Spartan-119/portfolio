@@ -128,4 +128,16 @@ img.socialIcon {
   }
 }
 
+.podcast-grid {
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+}
+
+.podcast-block {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */
