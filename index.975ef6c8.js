@@ -28633,13 +28633,23 @@ const Header = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "https://read.cv/abinvarghese",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                children: "CV/Resume"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 27,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "https://medium.com/@abin_varghese",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 children: "Blogs"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 27,
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28649,7 +28659,7 @@ const Header = ()=>{
                 children: "Applied Privacy Podcast"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 30,
+                lineNumber: 33,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28657,7 +28667,7 @@ const Header = ()=>{
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 37,
+                lineNumber: 40,
                 columnNumber: 7
             }, undefined)
         ]
