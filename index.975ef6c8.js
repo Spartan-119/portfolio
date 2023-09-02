@@ -27221,7 +27221,7 @@ const imageAltText = "purple and blue abstract background";
             lineNumber: 54,
             columnNumber: 5
         }, undefined),
-        "I'm a former Data Scientist at Infosys, specializing in Python, data structures & algorithms, SQL, classical Machine Learning, NLP, and statistical analysis. Currently pursuing an MSc in Data Science at Kingston University. I'm also a privacy advocate and host of the",
+        "I'm a former Data Scientist at Infosys, specializing in Python, data structures & algorithms, SQL, classical and deep Machine Learning, NLP, and statistical analysis. Currently pursuing an MSc in Data Science at Kingston University. I'm also a privacy advocate and host of the",
         " ",
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
             href: "https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4",
