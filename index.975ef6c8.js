@@ -28633,7 +28633,7 @@ const Header = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "https://read.cv/abinvarghese",
+                href: "https://github.com/Spartan-119/CV/blob/main/Abin%20Varghese%20Resume.pdf",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 children: "CV/Resume"
@@ -28649,7 +28649,7 @@ const Header = ()=>{
                 children: "Blogs"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 30,
+                lineNumber: 34,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28659,7 +28659,7 @@ const Header = ()=>{
                 children: "Applied Privacy Podcast"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 33,
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28667,7 +28667,7 @@ const Header = ()=>{
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 40,
+                lineNumber: 44,
                 columnNumber: 7
             }, undefined)
         ]
