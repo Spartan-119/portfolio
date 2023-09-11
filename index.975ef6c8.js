@@ -29022,6 +29022,8 @@ var _robinPng = require("../images/robin.png");
 var _robinPngDefault = parcelHelpers.interopDefault(_robinPng);
 var _thomasPng = require("../images/thomas.png");
 var _thomasPngDefault = parcelHelpers.interopDefault(_thomasPng);
+var _tawfiqPng = require("../images/tawfiq.png");
+var _tawfiqPngDefault = parcelHelpers.interopDefault(_tawfiqPng);
 // Import other thumbnails as needed
 const podcasts = [
     {
@@ -29053,6 +29055,12 @@ const podcasts = [
         description: "Thomas is the senior software engineer at Ethyca. Thomas and I talked about the privacy landscape from an engineering perspective, inserting privacy into the CI/CD pipeline, the future of privacy tech in the coming years and much more!",
         videoUrl: "https://www.youtube.com/watch?v=-NV2ZyuFgcI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4&index=19",
         thumbnail: (0, _thomasPngDefault.default)
+    },
+    {
+        title: "Tawfiq Alashoor",
+        description: "Dr. Tawfiq Alashoor, an Assistant Professor at Copenhagen Business School's Department of Digitalization, holds B.S., M.S., and Ph.D. degrees.",
+        videoUrl: "https://www.youtube.com/c/abinvarghese",
+        thumbnail: (0, _tawfiqPngDefault.default)
     }
 ];
 const Podcasts = ()=>{
@@ -29067,81 +29075,155 @@ const Podcasts = ()=>{
                 children: "Applied Privacy Podcast"
             }, void 0, false, {
                 fileName: "src/Components/Podcasts.jsx",
-                lineNumber: 56,
-                columnNumber: 9
+                lineNumber: 66,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "box",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "container" // Set the same class name as in Portfolio.jsx
-                    ,
-                    style: {
-                        display: "grid",
-                        gridTemplateColumns: "repeat(5, 1fr)",
-                        gap: "1rem"
-                    },
-                    children: podcasts.map((podcast, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "box",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "container",
+                        style: {
+                            display: "grid",
+                            gridTemplateColumns: "repeat(3, 1fr)",
+                            gap: "1rem",
+                            justifyContent: "space-between"
+                        },
+                        children: podcasts.slice(0, 3).map((podcast, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "box",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                     href: podcast.videoUrl,
                                     target: "_blank",
                                     rel: "noopener noreferrer",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                            src: podcast.thumbnail,
-                                            alt: podcast.title,
-                                            style: {
-                                                maxWidth: "100%",
-                                                height: "auto"
-                                            }
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Podcasts.jsx",
-                                            lineNumber: 69,
-                                            columnNumber: 19
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            children: podcast.title
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Podcasts.jsx",
-                                            lineNumber: 74,
-                                            columnNumber: 19
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Components/Podcasts.jsx",
-                                    lineNumber: 68,
-                                    columnNumber: 17
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "small",
-                                    children: podcast.description
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "inner-box",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: podcast.thumbnail,
+                                                alt: podcast.title,
+                                                style: {
+                                                    maxWidth: "100%",
+                                                    height: "auto",
+                                                    maxHeight: "200px"
+                                                }
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Podcasts.jsx",
+                                                lineNumber: 81,
+                                                columnNumber: 19
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                children: podcast.title
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Podcasts.jsx",
+                                                lineNumber: 86,
+                                                columnNumber: 19
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "small",
+                                                children: podcast.description
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Podcasts.jsx",
+                                                lineNumber: 87,
+                                                columnNumber: 19
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/Components/Podcasts.jsx",
+                                        lineNumber: 80,
+                                        columnNumber: 17
+                                    }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/Podcasts.jsx",
-                                    lineNumber: 76,
-                                    columnNumber: 17
+                                    lineNumber: 79,
+                                    columnNumber: 15
                                 }, undefined)
-                            ]
-                        }, index, true, {
-                            fileName: "src/Components/Podcasts.jsx",
-                            lineNumber: 67,
-                            columnNumber: 15
-                        }, undefined))
-                }, void 0, false, {
-                    fileName: "src/Components/Podcasts.jsx",
-                    lineNumber: 58,
-                    columnNumber: 11
-                }, undefined)
-            }, void 0, false, {
+                            }, index, false, {
+                                fileName: "src/Components/Podcasts.jsx",
+                                lineNumber: 78,
+                                columnNumber: 13
+                            }, undefined))
+                    }, void 0, false, {
+                        fileName: "src/Components/Podcasts.jsx",
+                        lineNumber: 68,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "container",
+                        style: {
+                            display: "grid",
+                            gridTemplateColumns: "repeat(3, 1fr)",
+                            gap: "1rem",
+                            justifyContent: "space-between"
+                        },
+                        children: podcasts.slice(3, 6).map((podcast, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "box",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: podcast.videoUrl,
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "inner-box",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: podcast.thumbnail,
+                                                alt: podcast.title,
+                                                style: {
+                                                    maxWidth: "100%",
+                                                    height: "auto",
+                                                    maxHeight: "200px"
+                                                }
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Podcasts.jsx",
+                                                lineNumber: 106,
+                                                columnNumber: 19
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                children: podcast.title
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Podcasts.jsx",
+                                                lineNumber: 111,
+                                                columnNumber: 19
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "small",
+                                                children: podcast.description
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Podcasts.jsx",
+                                                lineNumber: 112,
+                                                columnNumber: 19
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/Components/Podcasts.jsx",
+                                        lineNumber: 105,
+                                        columnNumber: 17
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/Components/Podcasts.jsx",
+                                    lineNumber: 104,
+                                    columnNumber: 15
+                                }, undefined)
+                            }, index, false, {
+                                fileName: "src/Components/Podcasts.jsx",
+                                lineNumber: 103,
+                                columnNumber: 13
+                            }, undefined))
+                    }, void 0, false, {
+                        fileName: "src/Components/Podcasts.jsx",
+                        lineNumber: 93,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "src/Components/Podcasts.jsx",
-                lineNumber: 57,
-                columnNumber: 9
+                lineNumber: 67,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Podcasts.jsx",
-        lineNumber: 55,
-        columnNumber: 7
+        lineNumber: 65,
+        columnNumber: 5
     }, undefined);
 };
 _c = Podcasts;
@@ -29154,7 +29236,7 @@ $RefreshReg$(_c, "Podcasts");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/jeff.png":"lGTLE","../images/patricia.png":"vJGTl","../images/dave.png":"3glMa","../images/robin.png":"gcyse","../images/thomas.png":"iL6tL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lGTLE":[function(require,module,exports) {
+},{"react":"21dqq","../images/jeff.png":"lGTLE","../images/patricia.png":"vJGTl","../images/dave.png":"3glMa","../images/robin.png":"gcyse","../images/thomas.png":"iL6tL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/tawfiq.png":"fgtru","react/jsx-dev-runtime":"iTorj"}],"lGTLE":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "jeff.c9b46e2a.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"vJGTl":[function(require,module,exports) {
@@ -29168,6 +29250,9 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "robin.
 
 },{"./helpers/bundle-url":"lgJ39"}],"iL6tL":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "thomas.a856b4b3.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"fgtru":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "tawfiq.b124733c.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
