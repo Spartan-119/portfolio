@@ -27089,8 +27089,8 @@ var _stylesCss = require("./styles.css");
  *
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
-    name: "Rania Hassani",
-    title: "I am the best boxer in the world.",
+    name: "Abin Varghese",
+    title: "Data Scientist & Privacy Proponent",
     email: "abinvarghese90@gmail.com",
     gitHub: "Spartan-119",
     instagram: "_coffee.consumer_/",
@@ -28717,8 +28717,8 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _raniaJpeg = require("../images/rania.jpeg");
-var _raniaJpegDefault = parcelHelpers.interopDefault(_raniaJpeg);
+ */ var _2HdPng = require("../images/2 hd.png");
+var _2HdPngDefault = parcelHelpers.interopDefault(_2HdPng);
 // const imageAltText = "";
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -28727,7 +28727,7 @@ const Home = ({ name , title  })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _raniaJpegDefault.default),
+                src: (0, _2HdPngDefault.default),
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
@@ -28800,8 +28800,8 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/rania.jpeg":"fhwfI"}],"fhwfI":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "rania.c3a5a9e7.jpeg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/2 hd.png":"dBDf7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dBDf7":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "2 hd.dafe6098.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -29073,7 +29073,7 @@ const podcasts = [
     {
         title: "Tawfiq Alashoor",
         description: "Dr. Tawfiq Alashoor, an Assistant Professor at Copenhagen Business School's Department of Digitalization, holds B.S., M.S., and Ph.D. degrees.",
-        videoUrl: "https://youtu.be/FvcAqAq-LF0",
+        videoUrl: "https://www.youtube.com/watch?v=UKuKdWgGun8&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4&index=21",
         thumbnail: (0, _tawfiqPngDefault.default)
     }
 ];
