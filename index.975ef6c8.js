@@ -27090,7 +27090,23 @@ var _stylesCss = require("./styles.css");
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
     name: "Abin Varghese",
-    title: "Data Scientist & Privacy Proponent",
+    title: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            "Machine Learning Engineer ",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/App.jsx",
+                lineNumber: 31,
+                columnNumber: 33
+            }, undefined),
+            "& ",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/App.jsx",
+                lineNumber: 32,
+                columnNumber: 9
+            }, undefined),
+            "Privacy Proponent"
+        ]
+    }, void 0, true),
     email: "abinvarghese90@gmail.com",
     gitHub: "Spartan-119",
     instagram: "_coffee.consumer_/",
@@ -27107,7 +27123,7 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 45,
+                lineNumber: 51,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
@@ -27115,22 +27131,22 @@ const App = ()=>{
                 title: siteProps.title
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 46,
+                lineNumber: 52,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 47,
+                lineNumber: 53,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 48,
+                lineNumber: 54,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _podcastsDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 49,
+                lineNumber: 55,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
@@ -27139,13 +27155,13 @@ const App = ()=>{
                 secondaryColor: secondaryColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 50,
+                lineNumber: 56,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.jsx",
-        lineNumber: 44,
+        lineNumber: 50,
         columnNumber: 5
     }, undefined);
 };
@@ -28995,7 +29011,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/ap.png":"flU6n","react/jsx-dev-runtime":"iTorj"}],"hrff5":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","../images/ap.png":"flU6n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hrff5":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "a_b testing.ffc291e7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"jcEeo":[function(require,module,exports) {
