@@ -28835,8 +28835,16 @@ var _netflixPng = require("../images/netflix.png");
 var _netflixPngDefault = parcelHelpers.interopDefault(_netflixPng);
 var _ganPng = require("../images/gan.png");
 var _ganPngDefault = parcelHelpers.interopDefault(_ganPng);
+var _apPng = require("../images/ap.png");
+var _apPngDefault = parcelHelpers.interopDefault(_apPng);
 // const imageAltText = "desktop with books and laptop";
 const projectList = [
+    {
+        title: "Applied Privacy Lite",
+        description: "[PRIVATE REPO] This project has 2 phases. Phase 1: Redact PIIs from a text. Phase 2: Implement Federated Learning to preserve privacy and increase collaboration for machine learning and analytics.",
+        url: "https://github.com/Spartan-119/applied-privacy-lite/",
+        thumbnail: (0, _apPngDefault.default)
+    },
     {
         title: "GAN Model on MNIST dataset",
         description: "This project delves into GANs, utilizing PyTorch and the MNIST dataset to understand their principles and generate digit images.",
@@ -28892,10 +28900,11 @@ const projectList = [
         thumbnail: (0, _netflixPngDefault.default)
     }, 
 ];
+// ... (previous imports and code)
 const Portfolio = ()=>{
-    // Divide the projects into 3 rows with 3 projects in each row
+    // Divide the projects into 2 rows with 5 projects in each row
     const rows = [];
-    for(let i = 0; i < projectList.length; i += 3)rows.push(projectList.slice(i, i + 3));
+    for(let i = 0; i < projectList.length; i += 5)rows.push(projectList.slice(i, i + 5));
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
         id: "portfolio",
@@ -28907,14 +28916,14 @@ const Portfolio = ()=>{
                 children: "Portfolio Projects"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 92,
+                lineNumber: 102,
                 columnNumber: 7
             }, undefined),
             rows.map((row, rowIndex)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "container",
                     style: {
                         display: "grid",
-                        gridTemplateColumns: "repeat(3, 1fr)",
+                        gridTemplateColumns: "repeat(5, 1fr)",
                         gap: "1rem"
                     },
                     children: row.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28934,20 +28943,20 @@ const Portfolio = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 99,
+                                            lineNumber: 113,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 104,
+                                            lineNumber: 118,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 98,
+                                    lineNumber: 112,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28955,24 +28964,24 @@ const Portfolio = ()=>{
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 106,
+                                    lineNumber: 120,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, project.title, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 97,
+                            lineNumber: 111,
                             columnNumber: 13
                         }, undefined))
                 }, `row_${rowIndex}`, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 95,
+                    lineNumber: 105,
                     columnNumber: 9
                 }, undefined))
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 91,
+        lineNumber: 101,
         columnNumber: 5
     }, undefined);
 };
@@ -28986,7 +28995,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hrff5":[function(require,module,exports) {
+},{"react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/ap.png":"flU6n","react/jsx-dev-runtime":"iTorj"}],"hrff5":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "a_b testing.ffc291e7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"jcEeo":[function(require,module,exports) {
@@ -29012,6 +29021,9 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "netfli
 
 },{"./helpers/bundle-url":"lgJ39"}],"jecTi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "gan.14968276.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"flU6n":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "ap.02349dd1.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"gXzeZ":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$c34b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
