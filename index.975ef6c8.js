@@ -28853,6 +28853,10 @@ var _ganPng = require("../images/gan.png");
 var _ganPngDefault = parcelHelpers.interopDefault(_ganPng);
 var _apPng = require("../images/ap.png");
 var _apPngDefault = parcelHelpers.interopDefault(_apPng);
+var _crimeStatisticsPng = require("../images/crime_statistics.png");
+var _crimeStatisticsPngDefault = parcelHelpers.interopDefault(_crimeStatisticsPng);
+var _support2Png = require("../images/support2.png");
+var _support2PngDefault = parcelHelpers.interopDefault(_support2Png);
 // const imageAltText = "desktop with books and laptop";
 const projectList = [
     {
@@ -28860,6 +28864,18 @@ const projectList = [
         description: "[PRIVATE REPO] This project has 2 phases. Phase 1: Redact PIIs from a text. Phase 2: Implement Federated Learning to preserve privacy and increase collaboration for machine learning and analytics.",
         url: "https://github.com/Spartan-119/applied-privacy-lite/",
         thumbnail: (0, _apPngDefault.default)
+    },
+    {
+        title: "US Crime Statistics",
+        description: "Performed an extensive exploratory data analysis on the US Crime Statistics dataset to understand the trends and patterns of crime in the US, and deployed it.",
+        url: "https://spartan-119.github.io/US_crime_statistics/",
+        thumbnail: (0, _crimeStatisticsPngDefault.default)
+    },
+    {
+        title: "Support2 dataset",
+        description: "Performed an extensive exploratory data analysis on the SUPPORT2 dataset that comprises 9105 individual critically ill patients across 5 United States medical centers, accessioned throughout 1989-1991 and 1992-1994..",
+        url: "https://spartan-119.github.io/US_crime_statistics/",
+        thumbnail: (0, _support2PngDefault.default)
     },
     {
         title: "GAN Model on MNIST dataset",
@@ -28918,9 +28934,9 @@ const projectList = [
 ];
 // ... (previous imports and code)
 const Portfolio = ()=>{
-    // Divide the projects into 2 rows with 5 projects in each row
+    // Divide the projects into 3 rows with 4 projects in each row
     const rows = [];
-    for(let i = 0; i < projectList.length; i += 5)rows.push(projectList.slice(i, i + 5));
+    for(let i = 0; i < projectList.length; i += 4)rows.push(projectList.slice(i, i + 4));
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
         id: "portfolio",
@@ -28932,14 +28948,14 @@ const Portfolio = ()=>{
                 children: "Portfolio Projects"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 102,
+                lineNumber: 118,
                 columnNumber: 7
             }, undefined),
             rows.map((row, rowIndex)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "container",
                     style: {
                         display: "grid",
-                        gridTemplateColumns: "repeat(5, 1fr)",
+                        gridTemplateColumns: "repeat(4, 1fr)",
                         gap: "1rem"
                     },
                     children: row.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28959,20 +28975,20 @@ const Portfolio = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 113,
+                                            lineNumber: 129,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 118,
+                                            lineNumber: 134,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 112,
+                                    lineNumber: 128,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28980,24 +28996,24 @@ const Portfolio = ()=>{
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 120,
+                                    lineNumber: 136,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, project.title, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 111,
+                            lineNumber: 127,
                             columnNumber: 13
                         }, undefined))
                 }, `row_${rowIndex}`, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 105,
+                    lineNumber: 121,
                     columnNumber: 9
                 }, undefined))
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 101,
+        lineNumber: 117,
         columnNumber: 5
     }, undefined);
 };
@@ -29011,7 +29027,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","../images/ap.png":"flU6n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hrff5":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","../images/ap.png":"flU6n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/crime_statistics.png":"9EEg0","../images/support2.png":"dlAIR"}],"hrff5":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "a_b testing.ffc291e7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"jcEeo":[function(require,module,exports) {
@@ -29040,6 +29056,12 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "gan.14
 
 },{"./helpers/bundle-url":"lgJ39"}],"flU6n":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "ap.02349dd1.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"9EEg0":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "crime_statistics.9745c90f.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"dlAIR":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "support2.7b870875.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"gXzeZ":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$c34b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
