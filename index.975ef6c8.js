@@ -28874,7 +28874,7 @@ const projectList = [
     {
         title: "Support2 dataset",
         description: "Performed an extensive exploratory data analysis on the SUPPORT2 dataset that comprises 9105 individual critically ill patients across 5 United States medical centers, accessioned throughout 1989-1991 and 1992-1994..",
-        url: "https://spartan-119.github.io/US_crime_statistics/",
+        url: "https://github.com/Spartan-119/SUPPORT2",
         thumbnail: (0, _support2PngDefault.default)
     },
     {
@@ -28932,7 +28932,6 @@ const projectList = [
         thumbnail: (0, _netflixPngDefault.default)
     }, 
 ];
-// ... (previous imports and code)
 const Portfolio = ()=>{
     // Divide the projects into 3 rows with 4 projects in each row
     const rows = [];
@@ -28948,7 +28947,7 @@ const Portfolio = ()=>{
                 children: "Portfolio Projects"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 118,
+                lineNumber: 117,
                 columnNumber: 7
             }, undefined),
             rows.map((row, rowIndex)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28975,20 +28974,20 @@ const Portfolio = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 129,
+                                            lineNumber: 128,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 134,
+                                            lineNumber: 133,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 128,
+                                    lineNumber: 127,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28996,24 +28995,24 @@ const Portfolio = ()=>{
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 136,
+                                    lineNumber: 135,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, project.title, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 127,
+                            lineNumber: 126,
                             columnNumber: 13
                         }, undefined))
                 }, `row_${rowIndex}`, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 121,
+                    lineNumber: 120,
                     columnNumber: 9
                 }, undefined))
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 117,
+        lineNumber: 116,
         columnNumber: 5
     }, undefined);
 };
@@ -29027,7 +29026,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","../images/ap.png":"flU6n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/crime_statistics.png":"9EEg0","../images/support2.png":"dlAIR"}],"hrff5":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","../images/ap.png":"flU6n","../images/crime_statistics.png":"9EEg0","../images/support2.png":"dlAIR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hrff5":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "a_b testing.ffc291e7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"jcEeo":[function(require,module,exports) {
