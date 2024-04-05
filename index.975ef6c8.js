@@ -27670,21 +27670,21 @@ function Experience() {
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Responsible for tasks including pattern recognition, identification of potential robotics uses within the company, and computer science."
+                                                            children: "Research, develop and implement SOTA Visual Odometry and SLAM algorithms for the application in low tunnels."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 18,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Working closely with the data science team, including algorithms, machine learning, and statistical analysis."
+                                                            children: "Responsible for tasks including pattern recognition, and application of robotics within the company in liaison with the data engineer and computer vision expert using Visual Odometry and SLAM."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 19,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Developing and implementing computer vision algorithms, managing large datasets, and working closely in cross-functional teams for mechanical design, sensors, firmware, and software engineering."
+                                                            children: "Developed and implemented computer vision algorithms, managing large datasets, and working closely in cross-functional teams for data science, mechanical design, sensors, firmware, and software engineering."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 20,
