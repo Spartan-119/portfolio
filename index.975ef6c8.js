@@ -27094,11 +27094,11 @@ var _stylesCss = require("./styles.css");
     name: "Abin Varghese",
     title: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
-            "Machine Learning Engineer ",
+            "Machine Learning Research Engineer ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "src/App.jsx",
                 lineNumber: 32,
-                columnNumber: 33
+                columnNumber: 42
             }, undefined),
             "& ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
@@ -27214,7 +27214,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */ const description = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
     children: [
-        "Hey yo! I am a privacy proponent, currently working as a Machine Learning Engineer in Computer Vision at",
+        "Hey yo! I am a privacy proponent, currently working as a Machine Learning Research Engineer in Computer Vision at",
         " ",
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
             href: "https://fruitcast.co.uk/",
@@ -27241,8 +27241,8 @@ const imageAltText = "purple and blue abstract background";
     "Python Software Development",
     "Fine-Tuning Large Language Model",
     "Data Science & Machine Learning",
-    "SQL",
-    "Java",
+    "SLAM Algorithms",
+    "Visual Odometry",
     "Natural Language Processing",
     "Computer Vision",
     "Privacy Enhancing Technologies",
@@ -27254,7 +27254,7 @@ const imageAltText = "purple and blue abstract background";
  * about you on a professional level.
  */ const detailOrQuote = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
     children: [
-        "Welcome to my data journey!",
+        "Welcome, World!",
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
             fileName: "src/Components/About.jsx",
             lineNumber: 61,
@@ -27265,7 +27265,7 @@ const imageAltText = "purple and blue abstract background";
             lineNumber: 62,
             columnNumber: 5
         }, undefined),
-        "I'm a Machine Learning Engineer in Computer Vision at FruitCast, specializing in Python, data structures & algorithms, SQL, classical and deep Machine Learning, NLP, Computer Vision and statistical analysis. Graduated with an MSc in Data Science at Kingston University (01/2023 - 01/2024). I'm also a privacy advocate and host of the",
+        "I'm a Machine Learning Research Engineer in Computer Vision at FruitCast, specializing in Python, data structures & algorithms, SQL, classical and deep Machine Learning, NLP, Computer Vision and statistical analysis. Graduated with an MSc in Data Science at Kingston University (01/2023 - 01/2024). I'm also a privacy advocate and host of the",
         " ",
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
             href: "https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4",
@@ -27670,7 +27670,7 @@ function Experience() {
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Research, develop and implement SOTA Visual Odometry and SLAM algorithms for the application in low tunnels."
+                                                            children: "Research, develop and implement SOTA Visual Odometry and SLAM algorithms for the application in polytunnels."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 18,
