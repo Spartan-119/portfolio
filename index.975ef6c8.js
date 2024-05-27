@@ -29243,7 +29243,7 @@ var _voPngDefault = parcelHelpers.interopDefault(_voPng);
 const projectList = [
     {
         title: "Applied Privacy Lite",
-        description: "[PRIVATE REPO] This project has 2 phases. Phase 1: Redact PIIs from a text. Phase 2: Implement Federated Learning to preserve privacy and increase collaboration for machine learning and analytics.",
+        description: "This project has 2 phases. Phase 1: Redact PIIs from a text. Phase 2: Implement Federated Learning to preserve privacy and increase collaboration for machine learning and analytics.",
         url: "https://github.com/Spartan-119/applied-privacy-lite/",
         thumbnail: (0, _apPngDefault.default)
     },
