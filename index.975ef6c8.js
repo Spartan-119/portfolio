@@ -27670,14 +27670,14 @@ function Experience() {
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Research, develop and implement SOTA Visual Odometry and SLAM algorithms for the application in polytunnels."
+                                                            children: "Research, develop and implement SOTA Visual Odometry for the application in polytunnels."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 18,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Responsible for tasks including pattern recognition, and application of robotics within the company in liaison with the data engineer and computer vision expert using Visual Odometry and SLAM."
+                                                            children: "Responsible for tasks including pattern recognition, and application of robotics within the company in liaison with the data engineer and computer vision expert using Visual Odometry."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 19,
@@ -29235,6 +29235,10 @@ var _crimeStatisticsPng = require("../images/crime_statistics.png");
 var _crimeStatisticsPngDefault = parcelHelpers.interopDefault(_crimeStatisticsPng);
 var _support2Png = require("../images/support2.png");
 var _support2PngDefault = parcelHelpers.interopDefault(_support2Png);
+var _atsJpeg = require("../images/ats.jpeg");
+var _atsJpegDefault = parcelHelpers.interopDefault(_atsJpeg);
+var _voPng = require("../images/vo.png");
+var _voPngDefault = parcelHelpers.interopDefault(_voPng);
 // const imageAltText = "desktop with books and laptop";
 const projectList = [
     {
@@ -29244,8 +29248,20 @@ const projectList = [
         thumbnail: (0, _apPngDefault.default)
     },
     {
+        title: "Applicant Tracking System",
+        description: "Designed an ATS to help streamline the recruitment process by matching job descriptions with candidate resumes. Used NLP techniques to extract keywords from resumes and job descriptions to match them and assign a matching score.",
+        url: "https://github.com/Spartan-119/ats",
+        thumbnail: (0, _atsJpegDefault.default)
+    },
+    {
+        title: "LightGlue Visual Odometry",
+        description: "Using the LightGlue feature extractor, implemented a Visual Odometry system to estimate the camera's motion in a 3D environment.",
+        url: "https://github.com/Spartan-119/simple-VO",
+        thumbnail: (0, _voPngDefault.default)
+    },
+    {
         title: "Support2 dataset",
-        description: "Performed an extensive exploratory data analysis on the SUPPORT2 dataset that comprises 9105 individual critically ill patients across 5 United States medical centers, accessioned throughout 1989-1991 and 1992-1994..",
+        description: "Performed an extensive exploratory data analysis on the SUPPORT2 dataset that comprises 9105 individual critically ill patients across 5 United States medical centers, accessioned throughout 1989-1991 and 1992-1994.",
         url: "https://spartan-119.github.io/SUPPORT2/",
         thumbnail: (0, _support2PngDefault.default)
     },
@@ -29325,7 +29341,7 @@ const Portfolio = ()=>{
                 children: "Portfolio Projects"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 117,
+                lineNumber: 133,
                 columnNumber: 7
             }, undefined),
             rows.map((row, rowIndex)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29352,20 +29368,20 @@ const Portfolio = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 128,
+                                            lineNumber: 144,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 133,
+                                            lineNumber: 149,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 127,
+                                    lineNumber: 143,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29373,24 +29389,24 @@ const Portfolio = ()=>{
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 135,
+                                    lineNumber: 151,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, project.title, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 126,
+                            lineNumber: 142,
                             columnNumber: 13
                         }, undefined))
                 }, `row_${rowIndex}`, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 120,
+                    lineNumber: 136,
                     columnNumber: 9
                 }, undefined))
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 116,
+        lineNumber: 132,
         columnNumber: 5
     }, undefined);
 };
@@ -29404,7 +29420,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","../images/ap.png":"flU6n","../images/crime_statistics.png":"9EEg0","../images/support2.png":"dlAIR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hrff5":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","../images/ap.png":"flU6n","../images/crime_statistics.png":"9EEg0","../images/support2.png":"dlAIR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/ats.jpeg":"hbc0J","../images/vo.png":"2o2r1"}],"hrff5":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "a_b testing.ffc291e7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"jcEeo":[function(require,module,exports) {
@@ -29439,6 +29455,12 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "crime_
 
 },{"./helpers/bundle-url":"lgJ39"}],"dlAIR":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "support2.7b870875.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"hbc0J":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "ats.00e3e301.jpeg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"2o2r1":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "vo.25a405c2.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"gXzeZ":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$c34b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
