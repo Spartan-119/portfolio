@@ -27661,7 +27661,7 @@ function Experience() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: "03/2024 - Present"
+                                                    children: "03/2024 - 06/2024"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
                                                     lineNumber: 16,
@@ -27804,7 +27804,7 @@ function Experience() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: "02/2022 - Present"
+                                                    children: "02/2022 - 05/2024"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
                                                     lineNumber: 41,
