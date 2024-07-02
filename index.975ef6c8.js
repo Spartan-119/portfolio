@@ -27214,14 +27214,14 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */ const description = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
     children: [
-        "Hey yo! I am a privacy proponent, currently working as a Machine Learning Research Engineer in Computer Vision at",
+        "Hey yo! I am a privacy proponent, currently working as the Head of Data at",
         " ",
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-            href: "https://fruitcast.co.uk/",
+            href: "https://www.viral.careers/",
             style: {
                 textDecoration: "underline"
             },
-            children: "FruitCast"
+            children: "VIRAL"
         }, void 0, false, {
             fileName: "src/Components/About.jsx",
             lineNumber: 29,
@@ -27242,7 +27242,8 @@ const imageAltText = "purple and blue abstract background";
     "Fine-Tuning Large Language Model",
     "Data Science & Machine Learning",
     "System design",
-    "Visual Odometry",
+    "RAG",
+    "LLM",
     "Natural Language Processing",
     "Computer Vision",
     "Privacy Enhancing Technologies",
@@ -27257,15 +27258,15 @@ const imageAltText = "purple and blue abstract background";
         "Welcome, World!",
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
             fileName: "src/Components/About.jsx",
-            lineNumber: 61,
+            lineNumber: 62,
             columnNumber: 5
         }, undefined),
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
             fileName: "src/Components/About.jsx",
-            lineNumber: 62,
+            lineNumber: 63,
             columnNumber: 5
         }, undefined),
-        "I'm a Machine Learning Research Engineer in Computer Vision at FruitCast, specializing in Python, data structures & algorithms, SQL, classical and deep Machine Learning, NLP, Computer Vision and statistical analysis. Graduated with an MSc in Data Science at Kingston University (01/2023 - 01/2024). I'm also a privacy advocate and host of the",
+        "I'm the Head of Data at VIRAL, specializing in Python, data structures & algorithms, SQL, classical and deep Machine Learning, NLP, Computer Vision and statistical analysis. Graduated with an MSc in Data Science at Kingston University (01/2023 - 01/2024). I'm also a privacy advocate and host of the",
         " ",
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
             href: "https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4",
@@ -27275,37 +27276,37 @@ const imageAltText = "purple and blue abstract background";
                 children: "Applied Privacy Podcast."
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 71,
+                lineNumber: 72,
                 columnNumber: 7
             }, undefined)
         }, void 0, false, {
             fileName: "src/Components/About.jsx",
-            lineNumber: 66,
+            lineNumber: 67,
             columnNumber: 5
         }, undefined),
         " ",
         "Please explore my podcast to learn more about privacy engineering.",
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
             fileName: "src/Components/About.jsx",
-            lineNumber: 73,
+            lineNumber: 74,
             columnNumber: 71
         }, undefined),
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
             fileName: "src/Components/About.jsx",
-            lineNumber: 74,
+            lineNumber: 75,
             columnNumber: 5
         }, undefined),
         "I am into learning boxing these days. It was a mistake! Have been playing \uD83C\uDFB8 for over 10 years. So, if you got a gig, ping me yeah\uD83E\uDD18",
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
             fileName: "src/Components/About.jsx",
-            lineNumber: 77,
+            lineNumber: 78,
             columnNumber: 5
         }, undefined),
         "I am also guilty of spending too much time PETTING DOGS."
     ]
 }, void 0, true, {
     fileName: "src/Components/About.jsx",
-    lineNumber: 59,
+    lineNumber: 60,
     columnNumber: 3
 }, undefined);
 function About() {
@@ -27319,7 +27320,7 @@ function About() {
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 84,
+                lineNumber: 85,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27336,7 +27337,7 @@ function About() {
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 95,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27344,12 +27345,12 @@ function About() {
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 96,
+                        lineNumber: 97,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 97,
+                        lineNumber: 98,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27364,17 +27365,17 @@ function About() {
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 108,
+                                lineNumber: 109,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 98,
+                        lineNumber: 99,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 111,
+                        lineNumber: 112,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27384,19 +27385,19 @@ function About() {
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 112,
+                        lineNumber: 113,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 85,
+                lineNumber: 86,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 83,
+        lineNumber: 84,
         columnNumber: 5
     }, this);
 }
@@ -27654,14 +27655,14 @@ function Experience() {
                                             className: "timeline-content",
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                    children: "Machine Learning Engineer (Computer Vision) @ FruitCast"
+                                                    children: "Head of Data @ VIRAL"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
                                                     lineNumber: 15,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: "03/2024 - 06/2024"
+                                                    children: "06/2024 - Present"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
                                                     lineNumber: 16,
@@ -27670,21 +27671,21 @@ function Experience() {
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Research, develop and implement SOTA Visual Odometry for the application in polytunnels."
+                                                            children: "Developed a custom RAG system to rank job postings and extracted data for the process."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 18,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Responsible for tasks including pattern recognition, and application of robotics within the company in liaison with the data engineer and computer vision expert using Visual Odometry."
+                                                            children: "Established KPIs in liaison with the CEO to rank the job postings."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 19,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Developed and implemented computer vision algorithms, managing large datasets, and working closely in cross-functional teams for data science, mechanical design, sensors, firmware, and software engineering."
+                                                            children: "Currently automating the job posting update process and continuous ranking using a custom RAG + LLM system."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 20,
@@ -27706,7 +27707,7 @@ function Experience() {
                                 }, void 0, true, {
                                     fileName: "src/Components/Experience.jsx",
                                     lineNumber: 12,
-                                    columnNumber: 13
+                                    columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "timeline-item",
@@ -27722,14 +27723,14 @@ function Experience() {
                                             className: "timeline-content",
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                    children: "Data Scientist @ Infosys"
+                                                    children: "Machine Learning Research Engineer (Computer Vision) @ FruitCast"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
                                                     lineNumber: 27,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: "10/2020 – 12/2022"
+                                                    children: "03/2024 - 06/2024"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
                                                     lineNumber: 28,
@@ -27738,31 +27739,24 @@ function Experience() {
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Engineered team leadership: Orchestrated development of an enterprise solution utilising the Attention model to autonomously extract and categorise skills from resumes, leading to substantial cost savings in HR operations at Bangalore and Mysore DC."
+                                                            children: "Research, develop and implement SOTA Visual Odometry for the application in polytunnels."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 30,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Contributed to ML projects: Enabled BEF's global impact, attracted external clients like GlobalFoundries, boosting profits in 2021-2022."
+                                                            children: "Responsible for tasks including pattern recognition, and application of robotics within the company in liaison with the data engineer and computer vision expert using Visual Odometry."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 31,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Created courses: Trained 5000+ employees in ML, NLP, and stats, indirectly increasing revenue."
+                                                            children: "Developed and implemented computer vision algorithms, managing large datasets, and working closely in cross-functional teams for data science, mechanical design, sensors, firmware, and software engineering."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 32,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Awarded best author: GPT-3 course in Q2 2022, live to 250,000+ internal employees and external vendors."
-                                                        }, void 0, false, {
-                                                            fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 33,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
@@ -27790,58 +27784,72 @@ function Experience() {
                                             className: "timeline-dot"
                                         }, void 0, false, {
                                             fileName: "src/Components/Experience.jsx",
-                                            lineNumber: 38,
+                                            lineNumber: 37,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                             className: "timeline-content",
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                    children: "Leader for Data Science and Machine Learning @ Corizo"
+                                                    children: "Data Scientist @ Infosys"
+                                                }, void 0, false, {
+                                                    fileName: "src/Components/Experience.jsx",
+                                                    lineNumber: 39,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: "10/2020 – 12/2022"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
                                                     lineNumber: 40,
                                                     columnNumber: 17
                                                 }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: "02/2022 - 05/2024"
-                                                }, void 0, false, {
-                                                    fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 41,
-                                                    columnNumber: 17
-                                                }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Achieved 55% revenue increase: Led 1000+ students in data science and machine learning, driving growth."
+                                                            children: "Engineered team leadership: Orchestrated development of an enterprise solution utilising the Attention model to autonomously extract and categorise skills from resumes, leading to substantial cost savings in HR operations at Bangalore and Mysore DC."
+                                                        }, void 0, false, {
+                                                            fileName: "src/Components/Experience.jsx",
+                                                            lineNumber: 42,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                            children: "Contributed to ML projects: Enabled BEF's global impact, attracted external clients like GlobalFoundries, boosting profits in 2021-2022."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 43,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Headed highest-revenue department: Developed impactful lessons and projects."
+                                                            children: "Created courses: Trained 5000+ employees in ML, NLP, and stats, indirectly increasing revenue."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 44,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                            children: "Awarded best author: GPT-3 course in Q2 2022, live to 250,000+ internal employees and external vendors."
+                                                        }, void 0, false, {
+                                                            fileName: "src/Components/Experience.jsx",
+                                                            lineNumber: 45,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 42,
+                                                    lineNumber: 41,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Experience.jsx",
-                                            lineNumber: 39,
+                                            lineNumber: 38,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Experience.jsx",
-                                    lineNumber: 37,
+                                    lineNumber: 36,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27851,7 +27859,68 @@ function Experience() {
                                             className: "timeline-dot"
                                         }, void 0, false, {
                                             fileName: "src/Components/Experience.jsx",
-                                            lineNumber: 49,
+                                            lineNumber: 50,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "timeline-content",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                    children: "Leader for Data Science and Machine Learning @ Corizo"
+                                                }, void 0, false, {
+                                                    fileName: "src/Components/Experience.jsx",
+                                                    lineNumber: 52,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: "02/2022 - 05/2024"
+                                                }, void 0, false, {
+                                                    fileName: "src/Components/Experience.jsx",
+                                                    lineNumber: 53,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                            children: "Achieved 55% revenue increase: Led 1000+ students in data science and machine learning, driving growth."
+                                                        }, void 0, false, {
+                                                            fileName: "src/Components/Experience.jsx",
+                                                            lineNumber: 55,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                            children: "Headed highest-revenue department: Developed impactful lessons and projects."
+                                                        }, void 0, false, {
+                                                            fileName: "src/Components/Experience.jsx",
+                                                            lineNumber: 56,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/Components/Experience.jsx",
+                                                    lineNumber: 54,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/Components/Experience.jsx",
+                                            lineNumber: 51,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/Components/Experience.jsx",
+                                    lineNumber: 49,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "timeline-item",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "timeline-dot"
+                                        }, void 0, false, {
+                                            fileName: "src/Components/Experience.jsx",
+                                            lineNumber: 61,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27861,14 +27930,14 @@ function Experience() {
                                                     children: "Internship @ Infosys"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 63,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                     children: "01/2020 – 03/2020"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 52,
+                                                    lineNumber: 64,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27877,32 +27946,32 @@ function Experience() {
                                                             children: "Got Trained in IVS-DWT stream."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 54,
+                                                            lineNumber: 66,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                             children: "Worked on UNIX, PLSQL, Python Programming language, Machine Learning fundamentals, Big Data, BI Testing, and extensively worked on ETL using Informatica."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 55,
+                                                            lineNumber: 67,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 53,
+                                                    lineNumber: 65,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Experience.jsx",
-                                            lineNumber: 50,
+                                            lineNumber: 62,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Experience.jsx",
-                                    lineNumber: 48,
+                                    lineNumber: 60,
                                     columnNumber: 13
                                 }, this)
                             ]
