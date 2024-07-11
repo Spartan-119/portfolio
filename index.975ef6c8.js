@@ -29308,6 +29308,8 @@ var _atsJpeg = require("../images/ats.jpeg");
 var _atsJpegDefault = parcelHelpers.interopDefault(_atsJpeg);
 var _voPng = require("../images/vo.png");
 var _voPngDefault = parcelHelpers.interopDefault(_voPng);
+var _gnnPng = require("../images/gnn.png");
+var _gnnPngDefault = parcelHelpers.interopDefault(_gnnPng);
 // const imageAltText = "desktop with books and laptop";
 const projectList = [
     {
@@ -29315,6 +29317,12 @@ const projectList = [
         description: "This project has 2 phases. Phase 1: Redact PIIs from a text. Phase 2: Implement Federated Learning to preserve privacy and increase collaboration for machine learning and analytics.",
         url: "https://github.com/Spartan-119/applied-privacy-lite/",
         thumbnail: (0, _apPngDefault.default)
+    },
+    {
+        title: "Graph Neural Network for Node Classification",
+        description: "This project contains a PyTorch implementation of a Graph Neural Network (GNN) for node classification on the Cora dataset using the PyTorch Geometric library.",
+        url: "https://github.com/Spartan-119/simple_gnn",
+        thumbnail: (0, _gnnPngDefault.default)
     },
     {
         title: "Applicant Tracking System",
@@ -29410,7 +29418,7 @@ const Portfolio = ()=>{
                 children: "Portfolio Projects"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 133,
+                lineNumber: 141,
                 columnNumber: 7
             }, undefined),
             rows.map((row, rowIndex)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29437,20 +29445,20 @@ const Portfolio = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 144,
+                                            lineNumber: 152,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 149,
+                                            lineNumber: 157,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 143,
+                                    lineNumber: 151,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29458,24 +29466,24 @@ const Portfolio = ()=>{
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 151,
+                                    lineNumber: 159,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, project.title, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 142,
+                            lineNumber: 150,
                             columnNumber: 13
                         }, undefined))
                 }, `row_${rowIndex}`, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 136,
+                    lineNumber: 144,
                     columnNumber: 9
                 }, undefined))
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 132,
+        lineNumber: 140,
         columnNumber: 5
     }, undefined);
 };
@@ -29489,7 +29497,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","../images/ap.png":"flU6n","../images/crime_statistics.png":"9EEg0","../images/support2.png":"dlAIR","../images/ats.jpeg":"hbc0J","../images/vo.png":"2o2r1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hrff5":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","../images/ap.png":"flU6n","../images/crime_statistics.png":"9EEg0","../images/support2.png":"dlAIR","../images/ats.jpeg":"hbc0J","../images/vo.png":"2o2r1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/gnn.png":"6pDKv"}],"hrff5":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "a_b testing.ffc291e7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"jcEeo":[function(require,module,exports) {
@@ -29530,6 +29538,9 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "ats.00
 
 },{"./helpers/bundle-url":"lgJ39"}],"2o2r1":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "vo.25a405c2.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"6pDKv":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "gnn.c77c9599.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"gXzeZ":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$c34b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
