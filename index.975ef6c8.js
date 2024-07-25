@@ -27214,7 +27214,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */ const description = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
     children: [
-        "Hey yo! I am a privacy proponent, currently working as the Head of Data at",
+        "Hey yo! I am a privacy proponent, currently working as Data Scientist at",
         " ",
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
             href: "https://www.viral.careers/",
@@ -27266,7 +27266,7 @@ const imageAltText = "purple and blue abstract background";
             lineNumber: 63,
             columnNumber: 5
         }, undefined),
-        "I'm the Head of Data at VIRAL, specializing in Python, data structures & algorithms, SQL, classical and deep Machine Learning, NLP, Computer Vision and statistical analysis. Graduated with an MSc in Data Science at Kingston University (01/2023 - 01/2024). I'm also a privacy advocate and host of the",
+        "I'd like to call myself a Machine Learning Engineer, specializing in Python, data structures & algorithms, SQL, classical and deep Machine Learning, NLP, Computer Vision and statistical analysis. Graduated with an MSc in Data Science with Distinction at Kingston University (01/2023 - 01/2024). I'm also a privacy advocate and host of the",
         " ",
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
             href: "https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4",
@@ -27671,24 +27671,17 @@ function Experience() {
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Developed a custom RAG system to rank job postings and extracted data for the process."
+                                                            children: "Built a pipeline to automatically extract job descriptions from job boards, clean it, transform it and load it to the Airtable."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 18,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Established KPIs in liaison with the CEO to rank the job postings."
+                                                            children: "Built a simple RAG pipeline to rank the quality of job descriptions based on 25 KPIs identified. This system scores based on a semantic similarity search."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
                                                             lineNumber: 19,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Currently automating the job posting update process and continuous ranking using a custom RAG + LLM system."
-                                                        }, void 0, false, {
-                                                            fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 20,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
@@ -29199,8 +29192,9 @@ const Home = ({ name , title  })=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
+                    fontSize: "3rem",
                     fontFamily: "consolas",
-                    position: "absolute",
+                    position: "relative",
                     top: "15rem",
                     left: "37rem",
                     width: "50rem"
@@ -29211,12 +29205,12 @@ const Home = ({ name , title  })=>{
                             children: name
                         }, void 0, false, {
                             fileName: "src/Components/Home.jsx",
-                            lineNumber: 41,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 40,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -29224,12 +29218,12 @@ const Home = ({ name , title  })=>{
                             children: title
                         }, void 0, false, {
                             fileName: "src/Components/Home.jsx",
-                            lineNumber: 44,
+                            lineNumber: 45,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 43,
+                        lineNumber: 44,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -29505,7 +29499,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","../images/ap.png":"flU6n","../images/crime_statistics.png":"9EEg0","../images/support2.png":"dlAIR","../images/ats.jpeg":"hbc0J","../images/vo.png":"2o2r1","../images/gnn.png":"6pDKv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/rag.png":"i8izv"}],"hrff5":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","../images/ap.png":"flU6n","../images/crime_statistics.png":"9EEg0","../images/support2.png":"dlAIR","../images/ats.jpeg":"hbc0J","../images/vo.png":"2o2r1","../images/gnn.png":"6pDKv","../images/rag.png":"i8izv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hrff5":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "a_b testing.ffc291e7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"jcEeo":[function(require,module,exports) {
