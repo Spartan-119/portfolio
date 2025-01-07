@@ -12,6 +12,16 @@ function Experience() {
           <div className="timeline-item">
               <div className="timeline-dot"></div>
               <div className="timeline-content">
+                <h3>GenAI Solutions Architect @ GIMO</h3>
+                <p>01/2025 - Present</p>
+                <ul>
+                  <li>Leading and Building AI products!</li>
+                  </ul>
+              </div>
+            </div>
+          <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
                 <h3>Data Scientist @ VIRAL</h3>
                 <p>06/2024 - 08/2024</p>
                 <ul>
