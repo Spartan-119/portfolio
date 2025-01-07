@@ -27214,7 +27214,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */ const description = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
     children: [
-        "ML Engineer with 3 years of commercial experience, and the Host of the Applied Privacy Podcast, featuring industry leaders (CEOs, CPOs etc.) and researchers. I have successfully developed impactful solutions, including a RAG-based ranking system that increased high-quality candidate applications by 40% and an automated ETL pipeline that reduced data collection time by 90%. Engineered a custom Visual Odometry solution for polytunnels, significantly enhancing position accuracy for autonomous navigation in agricultural settings. Built a privacy-preserving federated learning system and engineered a GAN for high-fidelity image generation, showcasing versatility in cutting-edge technologies. Proven track record in educational leadership, driving a 55% revenue increase by training over 5,000 students in data science and machine learning. Speaking Python, TensorFlow, PyTorch, and other advanced tools to solve complex problems and innovate in AI and data science. Open-sourced a ",
+        "Currently working as GenAI Solutions Architect at GIMO. I'm an AI Engineer with 4 years of commercial experience, and the Host of the Applied Privacy Podcast, featuring industry leaders (CEOs, CPOs etc.) and researchers. I have successfully developed impactful solutions, including a RAG-based ranking system that increased high-quality candidate applications by 40% and an automated ETL pipeline that reduced data collection time by 90%. Engineered a custom Visual Odometry solution for polytunnels, significantly enhancing position accuracy for autonomous navigation in agricultural settings. Built a privacy-preserving federated learning system and engineered a GAN for high-fidelity image generation, showcasing versatility in cutting-edge technologies. Proven track record in educational leadership, driving a 55% revenue increase by training over 5,000 students in data science and machine learning. Speaking Python, TensorFlow, PyTorch, and other advanced tools to solve complex problems and innovate in AI and data science. Open-sourced a ",
         " ",
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
             href: "https://pypi.org/project/simple-ats/",
@@ -27661,44 +27661,28 @@ function Experience() {
                                             className: "timeline-content",
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                    children: "Data Scientist @ VIRAL"
+                                                    children: "GenAI Solutions Architect @ GIMO"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
                                                     lineNumber: 15,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: "06/2024 - 08/2024"
+                                                    children: "01/2025 - Present"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
                                                     lineNumber: 16,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Developed a RAG-based ranking system using sentence_transformers embeddings and cosine similarity, evaluating job descriptions against 25 KPIs, resulting in a 40% increase in high-quality candidate applications and demonstrating advanced NLP skills"
-                                                        }, void 0, false, {
-                                                            fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 18,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Engineered an automated ETL pipeline using Python, and Airtable to extract job descriptions from multiple job boards, leveraging Axiom.ai, BeautifulSoup and Selenium for web scraping, reducing data collection time by 90% and increasing processed listings by 3x."
-                                                        }, void 0, false, {
-                                                            fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 20,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                            children: "Developed comprehensive data cleaning and transformation processes using Pandas and NLTK, including regex pattern matching, text normalisation, and entity recognition, improving data quality by 95% and ensuring consistency across diverse job posting formats."
-                                                        }, void 0, false, {
-                                                            fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 22,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: "Leading and Building AI products!"
+                                                    }, void 0, false, {
+                                                        fileName: "src/Components/Experience.jsx",
+                                                        lineNumber: 18,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
                                                     lineNumber: 17,
                                                     columnNumber: 17
@@ -27722,7 +27706,75 @@ function Experience() {
                                             className: "timeline-dot"
                                         }, void 0, false, {
                                             fileName: "src/Components/Experience.jsx",
-                                            lineNumber: 28,
+                                            lineNumber: 23,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "timeline-content",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                    children: "Data Scientist @ VIRAL"
+                                                }, void 0, false, {
+                                                    fileName: "src/Components/Experience.jsx",
+                                                    lineNumber: 25,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: "06/2024 - 08/2024"
+                                                }, void 0, false, {
+                                                    fileName: "src/Components/Experience.jsx",
+                                                    lineNumber: 26,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                            children: "Developed a RAG-based ranking system using sentence_transformers embeddings and cosine similarity, evaluating job descriptions against 25 KPIs, resulting in a 40% increase in high-quality candidate applications and demonstrating advanced NLP skills"
+                                                        }, void 0, false, {
+                                                            fileName: "src/Components/Experience.jsx",
+                                                            lineNumber: 28,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                            children: "Engineered an automated ETL pipeline using Python, and Airtable to extract job descriptions from multiple job boards, leveraging Axiom.ai, BeautifulSoup and Selenium for web scraping, reducing data collection time by 90% and increasing processed listings by 3x."
+                                                        }, void 0, false, {
+                                                            fileName: "src/Components/Experience.jsx",
+                                                            lineNumber: 30,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                            children: "Developed comprehensive data cleaning and transformation processes using Pandas and NLTK, including regex pattern matching, text normalisation, and entity recognition, improving data quality by 95% and ensuring consistency across diverse job posting formats."
+                                                        }, void 0, false, {
+                                                            fileName: "src/Components/Experience.jsx",
+                                                            lineNumber: 32,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/Components/Experience.jsx",
+                                                    lineNumber: 27,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/Components/Experience.jsx",
+                                            lineNumber: 24,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/Components/Experience.jsx",
+                                    lineNumber: 22,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "timeline-item",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "timeline-dot"
+                                        }, void 0, false, {
+                                            fileName: "src/Components/Experience.jsx",
+                                            lineNumber: 38,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27732,14 +27784,14 @@ function Experience() {
                                                     children: "Machine Learning Research Engineer (Computer Vision) @ FruitCast"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 30,
+                                                    lineNumber: 40,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                     children: "03/2024 - 08/2024"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 31,
+                                                    lineNumber: 41,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27748,39 +27800,39 @@ function Experience() {
                                                             children: "Built a custom Visual Odometry solution for polytunnel environments by adapting the LightGlue feature extractor. Optimised the algorithm to process laterally moving video footage, a significant departure from traditional forward-facing camera implementations. This tailored approach involved fine-tuning feature detection parameters, implementing outlier rejection methods, and developing a novel tracking mechanism to handle the unique challenges of lateral movement in confined spaces, resulting in substantially improved position accuracy for autonomous navigation in agricultural settings."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 33,
+                                                            lineNumber: 43,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                             children: "Built a Visual Odometry pipeline, conducting on-site testing at the Riseholme campus by setting up cameras in polytunnels and processing monocular camera footage. Applied Gaussian blur to smooth extracted features in each frame, enabling accurate distance estimation for the camera's movement within the polytunnel environment."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 39,
+                                                            lineNumber: 49,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                             children: "Spent approximately 10% of my time on data annotation, classifying strawberries into six distinct categories using V7, ensuring high-quality training data for machine learning models."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 42,
+                                                            lineNumber: 52,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 32,
+                                                    lineNumber: 42,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Experience.jsx",
-                                            lineNumber: 29,
+                                            lineNumber: 39,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Experience.jsx",
-                                    lineNumber: 27,
+                                    lineNumber: 37,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27790,7 +27842,7 @@ function Experience() {
                                             className: "timeline-dot"
                                         }, void 0, false, {
                                             fileName: "src/Components/Experience.jsx",
-                                            lineNumber: 49,
+                                            lineNumber: 59,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27800,14 +27852,14 @@ function Experience() {
                                                     children: "Data Scientist @ Infosys"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 61,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                     children: "10/2020 – 12/2022"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 52,
+                                                    lineNumber: 62,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27816,46 +27868,46 @@ function Experience() {
                                                             children: "Engineered team leadership: Orchestrated development of an enterprise solution utilising the Attention model to autonomously extract and categorise skills from resumes, leading to substantial cost savings in HR operations at Bangalore and Mysore DC."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 54,
+                                                            lineNumber: 64,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                             children: "Contributed to ML projects: Enabled BEF's global impact, attracted external clients like GlobalFoundries, boosting profits in 2021-2022."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 55,
+                                                            lineNumber: 65,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                             children: "Created courses: Trained 5000+ employees in ML, NLP, and stats, indirectly increasing revenue."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 56,
+                                                            lineNumber: 66,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                             children: "Awarded best author: GPT-3 course in Q2 2022, live to 250,000+ internal employees and external vendors."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 57,
+                                                            lineNumber: 67,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 53,
+                                                    lineNumber: 63,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Experience.jsx",
-                                            lineNumber: 50,
+                                            lineNumber: 60,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Experience.jsx",
-                                    lineNumber: 48,
+                                    lineNumber: 58,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27865,7 +27917,7 @@ function Experience() {
                                             className: "timeline-dot"
                                         }, void 0, false, {
                                             fileName: "src/Components/Experience.jsx",
-                                            lineNumber: 62,
+                                            lineNumber: 72,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27875,14 +27927,14 @@ function Experience() {
                                                     children: "Leader for Data Science and Machine Learning @ Corizo"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 64,
+                                                    lineNumber: 74,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                     children: "02/2022 - 05/2024"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 65,
+                                                    lineNumber: 75,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27891,32 +27943,32 @@ function Experience() {
                                                             children: "Achieved 55% revenue increase: Led 1000+ students in data science and machine learning, driving growth."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 67,
+                                                            lineNumber: 77,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                             children: "Headed highest-revenue department: Developed impactful lessons and projects."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 68,
+                                                            lineNumber: 78,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 66,
+                                                    lineNumber: 76,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Experience.jsx",
-                                            lineNumber: 63,
+                                            lineNumber: 73,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Experience.jsx",
-                                    lineNumber: 61,
+                                    lineNumber: 71,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27926,7 +27978,7 @@ function Experience() {
                                             className: "timeline-dot"
                                         }, void 0, false, {
                                             fileName: "src/Components/Experience.jsx",
-                                            lineNumber: 73,
+                                            lineNumber: 83,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27936,14 +27988,14 @@ function Experience() {
                                                     children: "Internship @ Infosys"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 75,
+                                                    lineNumber: 85,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                     children: "01/2020 – 03/2020"
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 76,
+                                                    lineNumber: 86,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27952,32 +28004,32 @@ function Experience() {
                                                             children: "Got Trained in IVS-DWT stream."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 78,
+                                                            lineNumber: 88,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                                             children: "Worked on UNIX, PLSQL, Python Programming language, Machine Learning fundamentals, Big Data, BI Testing, and extensively worked on ETL using Informatica."
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Experience.jsx",
-                                                            lineNumber: 79,
+                                                            lineNumber: 89,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/Components/Experience.jsx",
-                                                    lineNumber: 77,
+                                                    lineNumber: 87,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Experience.jsx",
-                                            lineNumber: 74,
+                                            lineNumber: 84,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Experience.jsx",
-                                    lineNumber: 72,
+                                    lineNumber: 82,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -29528,7 +29580,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","../images/ap.png":"flU6n","../images/crime_statistics.png":"9EEg0","../images/support2.png":"dlAIR","../images/ats.jpeg":"hbc0J","../images/vo.png":"2o2r1","../images/gnn.png":"6pDKv","../images/rag.png":"i8izv","../images/llm.jpg":"lAc0f","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/gfsc.png":"6KltZ"}],"hrff5":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/a_b testing.png":"hrff5","../images/price_prediction.png":"jcEeo","../images/credit_card_fraud_detection.png":"ix340","../images/flight_ticket.png":"dSzE0","../images/fake_news.png":"eb8s5","../images/pong.png":"16zGv","../images/conway.png":"7ZeZL","../images/netflix.png":"3VHEg","../images/gan.png":"jecTi","../images/ap.png":"flU6n","../images/crime_statistics.png":"9EEg0","../images/support2.png":"dlAIR","../images/ats.jpeg":"hbc0J","../images/vo.png":"2o2r1","../images/gnn.png":"6pDKv","../images/rag.png":"i8izv","../images/llm.jpg":"lAc0f","../images/gfsc.png":"6KltZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hrff5":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "a_b testing.ffc291e7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"jcEeo":[function(require,module,exports) {
